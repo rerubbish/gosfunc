@@ -13,7 +13,7 @@ type Person struct {
 	Name string
 	Age  uint
 }
-var result= Let([]Person{
+var result = gosfunc.Let([]Person{
 	{
 		Name: "233",
 		Age:  5,
